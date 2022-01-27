@@ -22,9 +22,15 @@
         background-color: #dddddd;
       }
     </style>
+    <script>
+      function checkURL(){
+        const queryString = window.location.search;
+        console.log(queryString);
+      }
+    </script>
     <title>HTML Template</title>
   </head>
-  <body>
+  <body onload=checkURL()>
     <h1>Hello, world!</h1>
     <h2>HTML Table</h2>
 
