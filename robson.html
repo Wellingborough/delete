@@ -1,8 +1,15 @@
+
 <!DOCTYPE html>
 <html>
   <head>
    <title>What Time Do You Call This Generator</title>
    <link rel="stylesheet" href="CSS/CascadingStuff.css">
+    <script>
+      function elSwitcheroo(){
+        var e = document.getElementById("language").value;
+        alert(e);
+      }
+    </script>
   </head>
    <body>
      <div id="BoxyBoi">
@@ -19,7 +26,7 @@
             <option value="German">German</option>
             <option value="Hindi">Hindi</option>
             <br><br> 
-            <input type="submit" value="Submit">
+            <input type="button" value="Submit" onclick=elSwitcheroo()>
           </select>
       </div>
     </div>
