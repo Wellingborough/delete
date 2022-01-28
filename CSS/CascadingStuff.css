@@ -1,0 +1,27 @@
+h1 { 
+  text-align: center;
+  font-size: 60px;
+  margin: auto;
+  
+}
+
+h3 {
+  text-align: center;
+  margin: auto;
+}
+
+BoxyBoi {
+  background-colour: electricblue;
+  opacity: 0.6;
+ 
+}
+body {
+  background-image: url(https://lizardpoint.com/geography/images/maps/world-countries-pale.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+  
+  margin: auto;
+}
